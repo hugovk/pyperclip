@@ -1,5 +1,9 @@
 language: python
 
+os:
+  - linux
+  - osx
+
 env:
   matrix:
   - TOXENV=py27
